@@ -113,3 +113,17 @@ Tips:
 
 <br>
 
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>生成器</h3>
+
+- **what** : 
+
+  使一个复杂对象的构建与他的表现分离，使得同样的构建过程可以创建不同的表现
+
+- **how** ：
+
+  Client（客户）- director (指导者) - builder (生成器)
+
+- **why** ：
+
+  创建对象算法应独立于部件的装配方式
+
