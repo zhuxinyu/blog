@@ -127,3 +127,46 @@ Tips:
 
   创建对象算法应独立于部件的装配方式
 
+<br>
+
+---
+
+Tips:
+
+​	生成器与抽象工厂最大的区别在于，生成器是多步，多方式构建，工厂以单一步骤，单一方式构建对象。
+
+---
+
+<br>
+
+<br>
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>单例</h3>
+
+- **what** : 
+
+  保证一个类仅有一个实例，并提供一个访问他的全局访问点
+
+- **how** ：
+
+  借用父类处理底层内存分配
+
+- **why** ：
+
+  系统中只能共享而不能复制的资源
+
+<br>
+
+---
+
+Tips:
+
+- 子类化单例的技巧：`Singleton *singleton = [NSAllocateObject ([Singleton class], 0, NULL) init];`
+
+​	第一个参数是singleton类的类型，第二个参数是用于索引的实例变量的额外字节数，它总是0，第三个参数用于指定内存中分配的区域，一般为NULL，表示默认区域
+
+- 单例的线程安全：要让单例线程安全，可在静态实例的nil检查周围加入一些@synchronized()程序块或者NSLock实例，如果有其他属性需要保护，也可以把他们声明为atomic型
+- Cocoa Touch中使用的单例模式：UIApplication(处理内存管理任务) / UIAccelerometer (加速度相关) / NSFileManager （文件管理器）
+
+---
+
