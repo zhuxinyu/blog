@@ -1,8 +1,8 @@
-<h1>第一部分 设计模式概念
+<h1>第一部分 设计模式概念</h1>
 
 
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left />设计模式概念
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>设计模式概念</h3>
 
 - **what** : 
 
@@ -18,7 +18,7 @@
 
 
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left />案例分析
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>案例分析</h3>
 
 - **what** : 
 
