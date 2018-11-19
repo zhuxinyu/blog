@@ -2,7 +2,7 @@
 
 
 
-###![](https://github.com/zhuxinyu/blog/blob/master/logo.jpg)设计模式概念
+###<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "15" height = "15" div align=left />设计模式概念
 
 **what** : 为特定重复场景下的问题而制造的解决方案
 
