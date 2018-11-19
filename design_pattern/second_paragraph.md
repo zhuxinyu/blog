@@ -8,7 +8,9 @@
 > > - 生成器 client-director-builder
 > > - 单例 singleton
 
+<br>
 
+<br>
 
 <img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>原型</h3>
 
