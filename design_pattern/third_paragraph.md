@@ -73,3 +73,21 @@ Tips
 
 ---
 
+<br>
+
+<br>
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>外观</h3>
+
+- **what** : 
+
+  为系统中的一组接口提供一个统一的接口。外观定义一个高层接口，让子系统更易于使用
+
+- **how** ：
+
+  将一组接口定义到一个高层接口中，调用这些子系统时可通过高层接口调用
+
+- **why** ：
+
+  1. 子系统正逐渐变得复杂，需要为子系统归档的时候
+  2. 可对子系统进行分层，简化依赖关系
