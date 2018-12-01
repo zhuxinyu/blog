@@ -4,7 +4,7 @@
 >
 > > - 访问者 visitor
 > > - 装饰 decorator
-> > - 责任链
+> > - 责任链 chain of responsibility
 
 <br>
 
@@ -68,4 +68,21 @@ Tips
 
   ---
 
+  <br>
 
+  <br>
+
+  <img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>责任链</h3>
+
+  - **what** : 
+
+    使多个对象都有机会处理请求，从而避免请求的发送者和接受者之间发生耦合。此模式将这些对象连城一条链，并沿着这条链传递请求，直到有一个对象处理它为止。
+
+  - **how** ：
+
+    通过传递请求的方式，形成责任链，每一次都传递和接收都做出相应处理
+
+  - **why** ：
+
+    1. 有多个对象可以处理请求，而处理程序只有在运行时才能确定
+    2. 向一组对象发出请求，而不想显式指定处理请求的特定处理程序
