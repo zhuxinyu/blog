@@ -3,7 +3,7 @@
 > 概要
 >
 > > - 享元 flyweight 
-> > - 代理
+> > - 代理 proxy
 
 <br>
 
@@ -41,4 +41,32 @@ Tips:
 ---
 
 <br>
+
+<br>
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/logo.jpg" width = "30" height = "30" div align=left /><h3>代理</h3>
+
+- **what** : 
+
+  为其他对象提供一种代理以控制对这个对象的访问
+
+- **how** ：
+
+   使用一个基本上跟实体对象行为相同的代理，实现轻量级预处理。例如大开销的对象再收到请求之前不需要加载，则可通过虚拟代理向客户端提供某些轻量的信息，如图片、信息占位。
+
+- **why** ：
+  1. 需要一个远程代理（remote proxy）为位于不同地址空间或网络上的对象提供本地代表
+  2. 需要一个虚拟代理（virtual proxy）根据需要创建重型对象
+  3. 需要一个保护代理（protection proxy）根据各种访问权限控制对原对象的访问
+  4. 需要一个智能引用代理（smart-reference proxy）通过对真正对象的引用进行计数来管理内存。也用于锁定真正对象，让其他对象不能对其进行修改
+
+<br>
+
+---
+
+Tips:
+
+​	Cocoa中的代理：OC不支持多重继承，如果代理对象不是Cocoa Touch框架中任何类的子类的话，可以考虑使用NSProxy作为占位或代替对象。
+
+---
 
