@@ -7,4 +7,5 @@
 - [第三部分 接口适配](https://github.com/zhuxinyu/blog/blob/master/design_pattern/third_paragraph.md)
 - [第四部分 对象去耦](https://github.com/zhuxinyu/blog/blob/master/design_pattern/forth_paragraph.md)
 - [第五部分 抽象集合](https://github.com/zhuxinyu/blog/blob/master/design_pattern/fifth_paragraph.md)
+- [第六部分 行为扩展](https://github.com/zhuxinyu/blog/blob/master/design_pattern/sixth_paragraph.md)
 
