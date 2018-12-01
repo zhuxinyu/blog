@@ -9,4 +9,5 @@
 - [第五部分 抽象集合](https://github.com/zhuxinyu/blog/blob/master/design_pattern/fifth_paragraph.md)
 - [第六部分 行为扩展](https://github.com/zhuxinyu/blog/blob/master/design_pattern/sixth_paragraph.md)
 - [第七部分 算法封装](https://github.com/zhuxinyu/blog/blob/master/design_pattern/seventh_paragraph.md)
+- [第八部分 性能与对象访问](https://github.com/zhuxinyu/blog/blob/master/design_pattern/eighth_paragraph.md)
 
