@@ -65,6 +65,7 @@ Tips
   Tips
 
   - 真正子类方式的实现使用一种较为结构化的方式连接各种装饰器。范畴的方式更为简单和轻量，适用于现有类只需要少量装饰器的应用程序。虽然范畴不同于实际的子类化，不能严格实现模式的原始风格，但它实现了解决同样问题的意图。
+  - cocoa中的装饰 [**Category**](https://www.raywenderlich.com/46988/ios-design-patterns) and [**Delegation**](https://www.raywenderlich.com/46988/ios-design-patterns).
 
   ---
 
