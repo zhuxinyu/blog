@@ -13,16 +13,39 @@
    	3. Static Method: 例如`promise.all()`,` promise.resolve()`等一些静态方法，主要都是对promise进行操作的辅助方法
 
 - workflow的方式形成method chain：`(promise instance).then((success, error) => {return}).catch(err)`
+
 - promise instance的三种状态：<img src="https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/promise-onFulfilled_onRejected.png" width = "310" height = "170" div align=right />
 
    1. has-resolution - fulfilled (成功)
    2. has-rejection - rejected (失败)
    3. unresolved - pending (进行中，未回调)
+
 - promise与event等不同，回调方法只会执行一次
+
 - 静态方法`Promise.resolve(value)` 可以认为是 `new Promise()` 方法的快捷方式
+
 - `Promise.resolve` 方法另一个作用就是将 [thenable](http://liubin.org/promises-book/#Thenable) 对象转换为promise对象，要求thenable对象所拥有的 `then` 方法应该和Promise所拥有的 `then` 方法具有**同样的功能和处理过程**。
-- js中的异步运行机制：同步任务在主线程执行，并形成任务栈**(execution context stack)**，异步任务在任务队列**(task queue)**中执行, 一旦没有同步任务执行时就从任务队列中读取异步任务执行，有同步任务时就在主线程结束当前任务后开始执行。
+
+- js中的异步运行机制：同步任务在主线程执行，并形成任务栈**(execution context stack)** ，异步任务在任务队列**(task queue)**中执行, 一旦没有同步任务执行时就从任务队列中读取异步任务执行，有同步任务时就在主线程结束当前任务后开始执行。
+
 - setTimeout 和 setInterval 是典型的异步调用
+
 - **不要对异步回调函数进行同步调用**处理顺序可能会与预期不符，可能带来意料之外的后果，还可能导致栈溢出或异常处理错乱等问题，如果想在将来某时刻调用异步回调函数的话，可以使用 `setTimeout` 等异步API
+
 - throw 会截断 promise chain 的workflow ，提前结束promise chain
+
 - `Promise.then()` 不仅仅是注册一个回调函数那么简单，它还会将回调函数的返回值进行变换，创建并返回一个promise对象。
+
+- 实际上 `Promise.catch`只是 `promise.then(undefined, onRejected);` 方法的一个别名而已。 也就是说，这个方法用来注册当promise对象状态变为Rejected时的回调函数。
+
+- [点标记法（dot notation）](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Property_Accessors#Dot_notation) 要求对象的属性必须是有效的标识符（在ECMAScript 3中则不能使用保留字），
+
+   但是使用 [中括号标记法（bracket notation）](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Property_Accessors#Bracket_notation)的话，则可以将非合法标识符作为对象的属性名使用,解决Promise#catch标识符冲突问题 (IE8 以下都是ES3)
+
+- **每次调用then都会返回一个新创建的promise对象**
+
+- `Promise.all`的promise数组是同时开始执行的, 也就是并行处理模式。
+
+- `Promise.race` 只要有一个promise对象进入 FulFilled 或者 Rejected 状态的话，就会执行then处理后续工作，且不会取消其他promise对象，会继续执行完。
+
+- 处理错误：遵循then catch flow
