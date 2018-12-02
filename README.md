@@ -12,3 +12,7 @@
 - [第八部分 性能与对象访问](https://github.com/zhuxinyu/blog/blob/master/design_pattern/eighth_paragraph.md)
 - [第九部分 对象状态](https://github.com/zhuxinyu/blog/blob/master/design_pattern/ninth_paragraph.md)
 
+#### JavaScript Promise 迷你书
+
+- [一些知识点](https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/points.md)
+
