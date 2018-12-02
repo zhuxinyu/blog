@@ -53,3 +53,5 @@
 ---
 
 ## 4. Chapter.4 - Advanced 未完待续
+
+http://liubin.org/promises-book/#what-is-promise
