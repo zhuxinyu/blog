@@ -49,3 +49,7 @@
 - `Promise.race` 只要有一个promise对象进入 FulFilled 或者 Rejected 状态的话，就会执行then处理后续工作，且不会取消其他promise对象，会继续执行完。
 
 - 处理错误：遵循then catch flow
+
+---
+
+## 4. Chapter.4 - Advanced 未完待续
