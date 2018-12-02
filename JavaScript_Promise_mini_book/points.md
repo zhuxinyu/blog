@@ -13,4 +13,6 @@
    	2. has-rejection - rejected (失败)
    	3. unresolved - pending (既不是成功也不是失败，是promise instance被创建后的初始化状态, 或者说是进行中，未回调)
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/WeChat5a1ab298e01829dd4b3fdea1b5fdcea4.png" width = "310" height = "170" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/WeChat5a1ab298e01829dd4b3fdea1b5fdcea4.png" width = "310" height = "170" div align=left />
+
+- Promise与Event等不同，在回调函数执行的函数只会被调用一次
