@@ -50,8 +50,23 @@
 
 - 处理错误：遵循then catch flow
 
----
+- 如果说一个类库具有 `then` 兼容性的话，实际上指的是 [Thenable](http://liubin.org/promises-book/#Thenable) ，它通过使用 [Promise.resolve](http://liubin.org/promises-book/#Promise.resolve) 基于ES6 Promise的规定，进行promise对象的变换。
 
-## 4. Chapter.4 - Advanced 未完待续
+- [jakearchibald/es6-promise](https://github.com/jakearchibald/es6-promise) 一个兼容 ES6 Promises 的Polyfill类库。 它基于 [RSVP.js](https://github.com/tildeio/rsvp.js) 这个兼容 Promises/A+ 的类库， 它只是 RSVP.js 的一个子集，只实现了Promises 规定的 API。
 
-http://liubin.org/promises-book/#what-is-promise
+- [yahoo/ypromise](https://github.com/yahoo/ypromise) 这是一个独立版本的 [YUI](http://yuilibrary.com/) 的 Promise Polyfill，具有和 ES6 Promises 的兼容性。 本书的示例代码也都是基于这个 ypromise 的 Polyfill 来在线运行的。
+
+- [getify/native-promise-only](https://github.com/getify/native-promise-only/) 以作为ES6 Promises的polyfill为目的的类库 它严格按照ES6 Promises的规范设计，没有添加在规范中没有定义的功能。 如果运行环境有原生的Promise支持的话，则优先使用原生的Promise支持。
+
+- [kriskowal/q](https://github.com/kriskowal/q) 类库 `Q` 实现了 Promises 和 Deferreds 等规范。 它自2009年开始开发，还提供了面向Node.js的文件IO API [Q-IO](https://github.com/kriskowal/q-io) 等， 是一个在很多场景下都能用得到的类库。（ [API Reference · kriskowal/q Wiki](https://github.com/kriskowal/q/wiki/API-Reference)）
+
+- [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) 这个类库除了兼容 Promise 规范之外，还扩展了取消promise对象的运行，取得promise的运行进度，以及错误处理的扩展检测等非常丰富的功能，此外它在实现上还在性能问题下了很大的功夫（[bluebird/API.md at master · petkaantonov/bluebird](https://github.com/petkaantonov/bluebird/blob/master/API.md))
+
+- 如果在Promise中使用 `throw` 语句的话，会被 `try...catch` 住，最终promise对象也变为Rejected状态。
+
+- 如果想把 [promise对象状态](http://liubin.org/promises-book/#promise-states) 设置为Rejected状态的话，使用 `reject` 方法则更显得合理。
+
+- 看到此图应该就很容易理解了，Deferred和Promise并不是处于竞争的关系，而是Deferred内涵了Promise。
+
+- 
+
