@@ -66,7 +66,7 @@
 
 - 如果想把 [promise对象状态](http://liubin.org/promises-book/#promise-states) 设置为Rejected状态的话，使用 `reject` 方法则更显得合理。
 
-- 看到此图应该就很容易理解了，Deferred和Promise并不是处于竞争的关系，而是Deferred内涵了Promise。
+- 看到此图应该就很容易理解了，Deferred和Promise并不是处于竞争的关系，而是Deferred内涵了Promise。<img src="https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/deferred-and-promise.png" width = "150" height = "250" div align=right />
 
 - 
 
