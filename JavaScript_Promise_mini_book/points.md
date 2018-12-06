@@ -90,5 +90,13 @@
    |      | 这种unhandled rejection错误到底有多难检查，也依赖于Promise的实现。 比如 [ypromise](https://github.com/yahoo/ypromise) 在检测到 unhandled rejection 错误的时候，会在控制台上提示相应的信息。Promise rejected but no error handlers were registered to it另外， [Bluebird](https://github.com/petkaantonov/bluebird) 在比较明显的人为错误，即ReferenceError等错误的时候，会直接显示到控制台上。"Possibly unhandled ReferenceError. conosle is not defined原生（Native）的 Promise实现为了应对同样问题，提供了GC-based unhandled rejection tracking功能。该功能是在promise对象被垃圾回收器回收的时候，如果是unhandled rejection的话，则进行错误显示的一种机制。[Firefox](https://twitter.com/domenic/status/461154989856264192) 或 [Chrome](https://code.google.com/p/v8/issues/detail?id=3093) 的原生Promise都进行了部分实现。 |
    | ---- | ------------------------------------------------------------ |
 
-- 
+- 在Promise中，我们可以选择多种方法来实现处理的按顺序执行。
 
+   - [循环使用then调用的方法](http://liubin.org/promises-book/#multiple-xhr.js)
+   - [使用for循环的方法](http://liubin.org/promises-book/#promise-foreach-xhr.js)
+   - [使用reduce的方法](http://liubin.org/promises-book/#promise-reduce-xhr.js)
+   - [分离出顺序处理函数的方法](http://liubin.org/promises-book/#promise-sequence.js)
+
+---
+
+END. [原文地址](http://liubin.org/promises-book/#introduction)
