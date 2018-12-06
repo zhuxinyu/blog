@@ -16,3 +16,6 @@
 
 - [一些知识点](https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/points.md)
 
+#### Objective-C 高级编程 iOS与OS X多线程和内存管理
+
+- [自动引用计数](https://github.com/zhuxinyu/blog/blob/master/OC_advantage_programming/autorelease.md)
