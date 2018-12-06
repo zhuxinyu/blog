@@ -70,5 +70,25 @@
 
    而是Deferred内涵了Promise。
 
+- 如果说Promise是用来对值进行抽象的话，Deferred则是对处理还没有结束的状态或操作进行抽象化的对象.
+
+- 用`promise.rice`的特性实现超时判断，两个对象竞速，其中一个任务的延迟定义为超时标准时间，若此任务优先完成，即判定为超时并throw错误。
+
+- 通过模块化实现promise对象和操作的分离
+
+- Promise能非常灵活的进行处理流程的控制，为了充分发挥它的能力，我们需要注意不要将一个函数写的过于庞大冗长，而是应该将其分割成更小更简单的处理，并对JavaScript中提到的机制进行更深入的了解。
+
+- `then`和`done`的区别
+
+   - `done` 并不返回promise对象
+     - 也就是说，在done之后不能使用 `catch` 等方法组成方法链
+   - `done` 中发生的异常会被直接抛给外面
+     - 也就是说，不会进行Promise的错误处理（Error Handling）
+
+- 原生promise ：错误被内部消化的问题也被称为 *unhandled rejection* ，从字面上看就是在Rejected时没有找到相应处理的意思。
+
+   |      | 这种unhandled rejection错误到底有多难检查，也依赖于Promise的实现。 比如 [ypromise](https://github.com/yahoo/ypromise) 在检测到 unhandled rejection 错误的时候，会在控制台上提示相应的信息。Promise rejected but no error handlers were registered to it另外， [Bluebird](https://github.com/petkaantonov/bluebird) 在比较明显的人为错误，即ReferenceError等错误的时候，会直接显示到控制台上。"Possibly unhandled ReferenceError. conosle is not defined原生（Native）的 Promise实现为了应对同样问题，提供了GC-based unhandled rejection tracking功能。该功能是在promise对象被垃圾回收器回收的时候，如果是unhandled rejection的话，则进行错误显示的一种机制。[Firefox](https://twitter.com/domenic/status/461154989856264192) 或 [Chrome](https://code.google.com/p/v8/issues/detail?id=3093) 的原生Promise都进行了部分实现。 |
+   | ---- | ------------------------------------------------------------ |
+
 - 
 
