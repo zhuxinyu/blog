@@ -4,7 +4,7 @@
 
 2. 绳索计算机： 一段绳索，取12段等长打结，首尾相连，其中一条向一个方向拉直，取四个节点处固定，将剩余绳索在左3右5处极力拉伸，直到每一段都伸直，即形成直角三角形，古埃及人用此方法绘制垂线，带12段等长节点的绳索即为计算机（计算工具）
 
-3. 尺规计算机：任给平面上线段AB（输入）,将其三等分(输出)， 尺规利用圆的半径相等，在一条辅助线（与AB同起点非退化（不重合）的射线）上做三个等分点，<img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-142809%402x.png" width = "440" height = "275" div align=right />
+3. 尺规计算机：任给平面上线段AB（输入）,将其三等分(输出)， 尺规利用圆的半径相等，在一条辅助线（与AB同起点非退化（不重合）的射线）上做三个等分点，<img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-142809%402x.png" width = "440" height = "225" div align=right />
 
    做最外层等分点与B的连接线，通过其他两个等分点做连接线的平行线，与AB相交于C、D点，B、C、D即为AB的三等分点。
 
