@@ -19,3 +19,8 @@
 #### Objective-C 高级编程 iOS与OS X多线程和内存管理
 
 - [自动引用计数](https://github.com/zhuxinyu/blog/blob/master/OC_advantage_programming/autorelease.md)
+
+#### 数据结构
+
+- [绪论](https://github.com/zhuxinyu/blog/blob/master/datastruct/prepare.md)
+
