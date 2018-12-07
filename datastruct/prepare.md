@@ -102,3 +102,5 @@
 23. 复杂度层次：
 
     <img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-161533%402x.png" width = "1000" height = "600" div align=left />
+
+24. 2-Subset is NP-complete (集合一分为二，求补集问题) ：直觉算法 即 2<sup>n</sup>, 就目前的计算模型而言，**不存在**可在多项式时间内回答此问题的算法，直觉算法已属最优
