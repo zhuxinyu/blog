@@ -101,5 +101,4 @@
 
 23. 复杂度层次：
 
-    <img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-161533%402x.png" width = "1000" height = "700" div align=left />
-
+    <img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-161533%402x.png" width = "1000" height = "600" div align=left />
