@@ -100,3 +100,6 @@
     T(n) = Θ( f(n)): 存在 c<sub>1</sub> > c<sub>2</sub> > 0, 当 n >> 2 后，有c<sub>1</sub>·f(n) > T(n) > c<sub>2</sub>·f(n)
 
 23. 复杂度层次：
+
+    <img src="https://github.com/zhuxinyu/blog/blob/master/datastruct/WX20181207-161533%402x.png" width = "1414" height = "840" div align=left />
+
