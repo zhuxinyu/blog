@@ -43,22 +43,16 @@
 
    - 负责传输的IP协议：(网络层)
 
-     作用是把各种数据包传递给对方，通过网络地址（IP）和物理地址(MAC), IP间的通信通过ARP协议（Address Resolution Protocol）反查出对应的MAC地址，通过路由选择（routing）的方式转发给下一站，直到目的地。<br>
-
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151115%402x.png" width = "350" height = "330" div align=left /><br>
+     作用是把各种数据包传递给对方，通过网络地址（IP）和物理地址(MAC), IP间的通信通过ARP协议（Address Resolution Protocol）反查出对应的MAC地址，通过路由选择（routing）的方式转发给下一站，直到目的地。<img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151115%402x.png" width = "350" height = "330" div align=right /><br>
 
    - 确保可靠性的TCP协议:(传输层)
 
-     提供可靠地字节流服务，可靠性指为确保数据能到达目标采用三次握手策略(three-way handshaking)，字节流指将大块数据分割成以报文段（segment）为单位的数据包进行管理。<br>
-
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151718%402x.png" width = "540" height = "270" div align=left /><br>
+     提供可靠地字节流服务，可靠性指为确保数据能到达目标采用三次握手策略(three-way handshaking)，字节流指将大块数据分割成以报文段（segment）为单位的数据包进行管理。<img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151718%402x.png" width = "540" height = "270" div align=right /><br>
 
    - 负责域名解析的DNS服务:（应用层）
 
-     提供域名到IP地址之间的解析服务<br>
-
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151852%402x.png" width = "540" height = "360" div align=left /><br>
+     提供域名到IP地址之间的解析服务<img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151852%402x.png" width = "540" height = "360" div align=right /><br>
 
      **各种协议与HTTP协议的关系，如下图所示**<br>
 
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-152014%402x.png" width = "350" height = "700" div align=left /><br>
+     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-152014%402x.png" width = "350" height = "700" div align=center /><br>
