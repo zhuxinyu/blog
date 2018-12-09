@@ -37,3 +37,11 @@
 
      </tr></table>
 
+5. 把数据信息包装起来的做法成为封装(encapsulate).
+
+6. 与HTTP关系密切的协议:**IP**(Internet Protocol，网际协议),**TCP**,**DNS**
+
+   - 负责传输的IP协议：(网络层)
+
+     作用是把各种数据包传递给对方，通过网络地址（IP）和物理地址(MAC), IP间的通信通过ARP协议（Address Resolution Protocol）反查出对应的MAC地址，通过路由选择（routing）的方式转发给下一站，直到目的地。
+
