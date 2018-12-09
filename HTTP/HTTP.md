@@ -31,9 +31,9 @@
          
      </table>
 
-     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "400" height = "230" div align=left /></td>
+     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "350" height = "230" div align=left /></td>
 
-     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "400" height = "230" div align=right /></td>
+     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "350" height = "230" div align=right /></td>
 
      </tr></table>
 
