@@ -8,3 +8,23 @@
 
    <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-143449%402x.png" width = "440" height = "225" div align=center />
 
+4. TCP/IP协议族各层的作用：
+
+   - **应用层**: 向用户提供应用服务时通信的活动。
+
+     FTP（File Transfer Protocol, 文本传输协议）
+
+     DNS (Domain Name System, 域名系统)
+
+     HTTP (HyperText Transfer Protocol, 超文本转换协议)
+
+   - **传输层**:对上层应用层，提供处于网络链接中的两台计算机之间的数据传输。
+
+     - TCP (Transmission Control Protocol, 传输控制协议)
+     - UDP (User Data Protocol, 用户数据报协议)
+
+   - **网络层**(又名网络互连层)：处理在网络上流动的数据包。网络层所起的作用就是在众多的选项内选择一条传输线路。
+
+   - **链路层**(又名数据链路层，网络接口层)：处理链接网络的硬件部分，包括控制操作系统、硬件的设备驱动、NIC(Network Interface Card，网络适配器即网卡)，及光纤等物理可见部分（还包括连接器等一切传输媒介），硬件上的范畴均在链路层的作用范围内。
+
+
