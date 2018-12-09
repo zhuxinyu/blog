@@ -27,7 +27,5 @@
 
    - **链路层**(又名数据链路层，网络接口层)：处理链接网络的硬件部分，包括控制操作系统、硬件的设备驱动、NIC(Network Interface Card，网络适配器即网卡)，及光纤等物理可见部分（还包括连接器等一切传输媒介），硬件上的范畴均在链路层的作用范围内。
 
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "600" height = "430" div align=center />
-
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "600" height = "430" div align=center />
+     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "400" height = "230" div align=left /><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "400" height = "230" div align=right />
 
