@@ -55,7 +55,7 @@
 
      **各种协议与HTTP协议的关系，如下图所示**<br>
 
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-152014%402x.png" width = "350" height = "700" div align=center /><br>
+     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-152014%402x.png" width = "450" height = "700" div align=center /><br>
 
 
 
