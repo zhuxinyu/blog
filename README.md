@@ -26,5 +26,5 @@
 
 #### 图解HTTP
 
-- [一些知识点]](https://github.com/zhuxinyu/blog/blob/master/HTTP/HTTP.md)
+- [一些知识点](https://github.com/zhuxinyu/blog/blob/master/HTTP/HTTP.md)
 
