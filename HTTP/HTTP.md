@@ -31,13 +31,11 @@
          
      </table>
 
-     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "350" height = "230" div align=left /></td>
+     <table><td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145440%402x.png" width = "350" height = "230" div align=left /></td>
 
-     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "350" height = "230" div align=right /></td>
+     <td><img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-145849%402x.png" width = "350" height = "230" div align=left /></td>
 
      </tr></table>
-
-   <br>
 
 5. 把数据信息包装起来的做法成为封装(encapsulate).
 
@@ -47,5 +45,5 @@
 
      作用是把各种数据包传递给对方，通过网络地址（IP）和物理地址(MAC), IP间的通信通过ARP协议（Address Resolution Protocol）反查出对应的MAC地址，通过路由选择（routing）的方式转发给下一站，直到目的地。
 
-     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151115%402x.png" width = "350" height = "230" div align=left />
+     <img src="https://github.com/zhuxinyu/blog/blob/master/HTTP/WX20181209-151115%402x.png" width = "350" height = "330" div align=left />
 
