@@ -145,3 +145,11 @@ rect.draw()
 
 Find full source code here: [Github](https://github.com/iamcrypticcoder/DesignPattern/tree/master/swift)
 
+
+
+
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/WX20190127-115148%402x.png" width = "600" height = "225" div align=center />
+
+
+
