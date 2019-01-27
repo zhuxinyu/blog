@@ -16,9 +16,9 @@
 
 - [一些知识点](https://github.com/zhuxinyu/blog/blob/master/JavaScript_Promise_mini_book/points.md)
 
-#### Objective-C 高级编程 iOS与OS X多线程和内存管理
+#### 一些技术翻译
 
-- [自动引用计数](https://github.com/zhuxinyu/blog/blob/master/OC_advantage_programming/autorelease.md)
+- [swift4 桥接模式](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91swift%204%20%E7%9A%84%20%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.md)
 
 #### 数据结构
 
