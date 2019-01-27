@@ -1,4 +1,4 @@
-# 【译】Swift 的单例
+# 【译】Swift 单例模式
 
 关于单例类 | 什么是单例模式
 
@@ -73,6 +73,8 @@ LocationManager.shared.requestForLocation()
 ```
 
 修改入口初始化等级后你会得到这种错误 -
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_PoJfJSC8mLRk9oMq4exFpg.png" width = "600" height = "225" div align=center />
 
 每个class有默认public的初始化器，它现在变成了private。现在你不再能初始化你的单例类。
 
