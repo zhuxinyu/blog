@@ -14,7 +14,7 @@
 
 **结构**:
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_vfOCjncSI1ES207HklBXUQ.gif" width = "440" height = "225" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_vfOCjncSI1ES207HklBXUQ.gif" width = "600" height = "225" div align=center />
 
 
 
