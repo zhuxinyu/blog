@@ -20,6 +20,7 @@
 
 - [swift4 桥接模式](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91swift%204%20%E7%9A%84%20%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.md)
 - [swift 单例模式](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91Swift%20%E7%9A%84%E5%8D%95%E4%BE%8B.md)
+- [swift4.2 代理模式](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91%20siwft%204.2%20%E4%BB%A3%E7%90%86%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 
 #### 数据结构
 
