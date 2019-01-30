@@ -16,13 +16,13 @@
 
 如果你按command键**(⌘)** 和鼠标左键点击**UITableViewDataSource** 你会看到这些选项-
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_Wo3GdtbO0GcnPOpxr_178g.png" width = "600" height = "135" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_Wo3GdtbO0GcnPOpxr_178g.png" width = "600" height = "235" div align=center />
 
 
 
 现在点击**跳转到定义**，然后你会看到他们的协议方法 -
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_3IHuEk66pTf8YZq0t6D5zQ.png" width = "600" height = "115" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_3IHuEk66pTf8YZq0t6D5zQ.png" width = "600" height = "55" div align=center />
 
 这是一个例子关于Swift中的协议。现在看这是什么和如何创建我们自己的协议方法和如何在我们的项目中应用。
 
@@ -32,11 +32,11 @@
 
 我们开始写协议但没有class，你会看到一些东西就像这样 -
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_5ENRKZvGDoFhcjWEOnjGSA.png" width = "600" height = "95" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_5ENRKZvGDoFhcjWEOnjGSA.png" width = "600" height = "60" div align=center />
 
 选择第一个选项或者按回车。之后，你会看起来像这样 - 
 
-<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_-qgQL--GCeInEnEjspuS6g.png" width = "600" height = "110" div align=center />
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_-qgQL--GCeInEnEjspuS6g.png" width = "600" height = "200" div align=center />
 
 现在写你的协议名称和需求，用你想要的方法和变量。我创建了一个名字叫DeveloperEntryDelegate的协议，我在这用的是AnyObject 因为如果你想使用它就让它变成弱引用，否则就忽略它。
 
