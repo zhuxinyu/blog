@@ -14,11 +14,15 @@
 
 在swift 语言中你看到过很多次协议，在开发基础表视图有**UITableViewDelegate & UITableViewDataSource**. 这两个协议都有他们自己的必需和可选的方法。如果你看过Apple的frameworks。
 
-如果你按command键**(**⌘**)** 和鼠标左键点击**UITableViewDataSource** 你会看到这些选项-
+如果你按command键**(⌘)** 和鼠标左键点击**UITableViewDataSource** 你会看到这些选项-
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_Wo3GdtbO0GcnPOpxr_178g.png" width = "600" height = "225" div align=center />
 
 
 
-现在点击'跳转到定义'，然后你会看到他们的协议方法 -
+现在点击**跳转到定义**，然后你会看到他们的协议方法 -
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_3IHuEk66pTf8YZq0t6D5zQ.png" width = "600" height = "225" div align=center />
 
 这是一个例子关于Swift中的协议。现在看这是什么和如何创建我们自己的协议方法和如何在我们的项目中应用。
 
@@ -28,7 +32,11 @@
 
 我们开始写协议但没有class，你会看到一些东西就像这样 -
 
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_5ENRKZvGDoFhcjWEOnjGSA.png" width = "600" height = "225" div align=center />
+
 选择第一个选项或者按回车。之后，你会看起来像这样 - 
+
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_-qgQL--GCeInEnEjspuS6g.png" width = "600" height = "225" div align=center />
 
 现在写你的协议名称和需求，用你想要的方法和变量。我创建了一个名字叫DeveloperEntryDelegate的协议，我在这用的是AnyObject 因为如果你想使用它就让它变成弱引用，否则就忽略它。
 
@@ -49,6 +57,8 @@ weak var delegate: DeveloperEntryDelegate?
 
 你会看到下面的错误关于弱引用协议声明 - 
 
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_kOf8zpOFO9sdusDdaD4CuQ.png" width = "600" height = "225" div align=center />
+
 现在用协议的类型**AnyObject**修复这个错误
 
 ```swift
@@ -60,9 +70,13 @@ protocol DeveloperEntryDelegate: AnyObject {
 
 现在看你的class， 我们要在那里声明它
 
+<img src="https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/1_G86cJWi52_y0iuQSBwO4GQ.png" width = "600" height = "225" div align=center />
+
 **现在看他如何工作**
 
-【此处应有utu视频，请看原文】
+【此处应有视频】
+
+https://youtu.be/SO1Gj7YA48c
 
 本质上我们用的代理是为了回调传值或者方法从一个发起者class到另一个class。这会1v1进行交流。
 
