@@ -37,3 +37,7 @@
 
 - [一些知识点](https://github.com/zhuxinyu/blog/blob/master/HTTP/HTTP.md)
 
+#### 面试题复习：
+
+- [UI视图](https://github.com/zhuxinyu/blog/blob/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/UI%E8%A7%86%E5%9B%BE.md)
+
