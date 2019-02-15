@@ -23,7 +23,11 @@
 - [swift4.2 代理模式](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91%20siwft%204.2%20%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.md)
 - [贪心算法基础](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80.md)
 - [N.A.R.C](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/%E3%80%90%E8%AF%91%E3%80%91N.A.R.C.md)
+
+一些tips
+
 - [swift 的输入](https://github.com/zhuxinyu/blog/blob/master/%E4%B8%80%E4%BA%9B%E6%8A%80%E6%9C%AF%E7%BF%BB%E8%AF%91/Swift%20%E7%9A%84%E8%BE%93%E5%85%A5.md)
+- [CocoaPos or Cathage?](http://shashikantjagtap.net/carthage-cocoapods-question/)
 
 #### 数据结构
 
