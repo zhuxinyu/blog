@@ -46,13 +46,68 @@ UIApplication -> UIWindow -> hitTest:withEvent:
 ```
 
 - 视图响应链：（个人理解）
-
   1. 与传递链相反
-
   2. 且只有点击位置在视图内的才会参与响应链
-
   3. 到 UIApplicationDelegate 依然没有任何视图处理该事件的时候，直接忽略此事件， 并不会崩溃。
 
-     
+- UIView和CALayer:
 
-     
+  1. UIView为CALayer提供内容，以及负责处理触摸等事件，参与响应链。
+
+  2. CALayer负责显示内容contents
+
+  3. 设计概念：[单一职责](https://blog.csdn.net/zhengzhb/article/details/7278174)
+
+     ~ 扩展阅读：设计模式六大原则：[单一职责](https://blog.csdn.net/zhengzhb/article/details/7278174)、[里式替换](https://blog.csdn.net/zhengzhb/article/details/7281833)、[依赖倒置](https://blog.csdn.net/zhengzhb/article/details/7289269)、[接口隔离](https://blog.csdn.net/zhengzhb/article/details/7296921)、[迪米特](https://blog.csdn.net/zhengzhb/article/details/7296930)、[开闭原则](https://blog.csdn.net/zhengzhb/article/details/7296944)
+
+### 图像显示原理：
+
+- CPU的工作：
+  1. UI布局
+  2. 文本计算
+  3. 绘制，比如drawRect方法
+  4. 图片编解码
+  5. 提交位图
+- CPU渲染管线：
+  1. 文理渲染
+  2. 视图混合
+
+### 卡顿 & 掉帧：
+
+- UI卡顿、掉帧的原因：
+  1. 页面滑动流畅性是60fps，也就是16.7ms一个vsync信号刷新一次，CPU 花费时间绘图解码之后将位图交给 GPU 合成渲染产生一帧画面。
+  2. CPU解码和GPU渲染的时间超过了16.7毫秒就会出现掉帧，显示效果就是卡顿啦。
+
+### UITableView 的滑动优化方案：
+
+- CPU: (CoreGraphics)
+
+  1. 对象创建、调整、销毁
+
+  2. 预排版（布局计算，文本计算）
+
+  3. 预渲染 （文本异步绘制， 图片编解码等）
+
+     像对象创建，布局计算等都可以放到子线程去做，主线程可以有更多的时间去响应用户的交互
+
+- GPU: (QuartzCore) 接收提交的纹理（Texture）和顶点描述（三角形），应用变换（transform）、混合并渲染，然后输出到屏幕上
+
+  1. 文理渲染：避免[离屏渲染](https://www.jianshu.com/p/6d24a4c29e18)
+
+  2. 视图混合：视图层叠需要进行像素计算，可降低视图复杂度，通过CPU层面的异步绘制（例如drawRect），达到提交的位图本身就是一个层级少的视图。 （coretext绘制）
+
+     扩展阅读：
+
+     - [iOS开发：UITableView的优化技巧－异步绘制Cell](https://blog.csdn.net/mo_xiao_mo/article/details/52622172)
+
+     - [基于 CoreText 的排版引擎：基础](https://blog.devtang.com/2015/06/27/using-coretext-1/)
+
+       **NS_ASSUME_NONNULL_BEGIN && NS_ASSUME_NONNULL_END**
+
+     - [Object-C中的黑魔法](https://www.jianshu.com/p/b3a31eed945f)
+
+     - [NS_ASSUME_NONNULL_BEGIN和NS_ASSUME_NONNULL_END](https://www.jianshu.com/p/67aa3bbb68c6)
+
+       **__kindof**
+
+     - [Xcode 7新的特性Lightweight Generics 轻量级泛型与__kindof修饰符](https://blog.csdn.net/leikezhu1981/article/details/47418011)
