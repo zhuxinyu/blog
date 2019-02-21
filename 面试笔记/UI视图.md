@@ -111,3 +111,16 @@ UIApplication -> UIWindow -> hitTest:withEvent:
        **__kindof**
 
      - [Xcode 7新的特性Lightweight Generics 轻量级泛型与__kindof修饰符](https://blog.csdn.net/leikezhu1981/article/details/47418011)
+
+       **CFRELEASE**
+
+     - [Objective-C 和 Core Foundation 对象相互转换的内存管理总结](https://blog.csdn.net/yiyaaixuexi/article/details/8553659)
+
+     - [Objective-CObjective-C的"多继承"](https://blog.csdn.net/yiyaaixuexi/article/details/8970734)
+
+     - [iOS安全攻防（十七）：Fishhook](https://blog.csdn.net/yiyaaixuexi/article/details/19094765)
+
+       
+
+       
+
