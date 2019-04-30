@@ -34,6 +34,11 @@ homeVC?.tabBar.backgroundImage = img
 
 不让就不让 也行 至少知道问题出在哪了 继续google 找一个[11年的帖子](<https://stackoverflow.com/questions/8517751/how-to-stretch-backgroundimage-in-uinavigationbar-and-uitabbar-when-autoresized>) 说用`stretchableImage(withLeftCapWidth:topCapHeight:)`这个能解决 抱着~~死马当活马医~~实践是检验真理唯一标准的心态试了一下 还真成了！
 
+```swift
+let img = UIImage(imageLiteralResourceName: "backgroundTabbar").stretchableImage(withLeftCapWidth: 0, topCapHeight: 0)
+        homeVC?.tabBar.backgroundImage = img
+```
+
 <br>
 
 <img src="https://github.com/zhuxinyu/blog/blob/master/iOS%E7%AC%94%E8%AE%B0/WX20190429-210445%402x.png" width = "842" height = "202" div align=center />
