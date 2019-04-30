@@ -37,6 +37,10 @@
 
 - [一些知识点](https://github.com/zhuxinyu/blog/blob/master/HTTP/HTTP.md)
 
+#### 开发笔记：
+
+- [如何拉伸显示UITabbar的backgroundImage](<https://github.com/zhuxinyu/blog/blob/master/iOS%E7%AC%94%E8%AE%B0/%E5%A6%82%E4%BD%95%E6%8B%89%E4%BC%B8%E6%98%BE%E7%A4%BAUITabbar%E7%9A%84backgroundImage.md>)
+
 #### 面试题复习：
 
 - [UI视图](https://github.com/zhuxinyu/blog/blob/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/UI%E8%A7%86%E5%9B%BE.md)
