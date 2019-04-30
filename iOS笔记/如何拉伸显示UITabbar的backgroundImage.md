@@ -1,5 +1,7 @@
 ## 如何拉伸显示UITabbar的backgroundImage
 
+设备：iOS12.2  iPhone XR  xcode10.2.1
+
 努力找个blog写 没找到啥喜欢的平台 想去sina还维护半个月😂 先借用github凑合一下 我知道这不合规矩 以后再移走
 
 遇到个问题记录一下： UITabbar的backgroundImage默认平铺显示，我试图让它拉伸显示
